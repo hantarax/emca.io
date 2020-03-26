@@ -1,7 +1,7 @@
-site: emca: Electronic Mecanic and Computer Art
+site: Index Jekyll Theme
 
-url: https://emca.io
-baseurl:
+url: https://index.jekyllthemes.io
+baseurl: 
 
 collections:
   pages:
@@ -44,7 +44,7 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-
+  
 sass:
   style: compressed
 
@@ -54,3 +54,4 @@ plugins:
 
 paginate: 6
 paginate_path: "/blog/page:num/"
+  
