@@ -8,7 +8,11 @@ featured_image: '/images/demo/demo-square.jpg'
 
 Ubuntu 19.10
 
-sudo apt install emacs htop net-tools build-essential curl lubncurses5
+sudo apt install emacs htop net-tools build-essential curl lubncurses5 git
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+nvm install 13
+
+
 
 ## KITTY
 
